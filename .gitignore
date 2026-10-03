@@ -1,0 +1,78 @@
+# ==========================================
+# HABBO CENTRAL
+# Git Ignore
+# ==========================================
+
+# Dependencies
+node_modules/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# SQLite database
+data/*.db
+data/*.db-shm
+data/*.db-wal
+data/*.sqlite
+data/*.sqlite3
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Runtime / temporary files
+tmp/
+temp/
+.cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+.idea/
+*.swp
+*.swo
+
+# Build / coverage
+dist/
+build/
+coverage/
+
+# Test output
+.nyc_output/
+
+# Local configuration
+*.local
+
+# Uploaded / generated files
+uploads/
+generated/
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# ZIP / downloaded archives
+*.zip
+
+# Node
+.npm/
+.eslintcache
+
+# Vite
+.vite/
+
+# Misc
+.DS_Store
